@@ -8,6 +8,7 @@
 html,
 body {
     font-family: "Inter", sans-serif;
+    color:#303030;
 }
 
 a {
@@ -48,9 +49,9 @@ header span {
 }
 
 .main-title {
+    max-width: 715px;
     font-weight: 700;
     font-size: 48px;
-    color: #303030;
     margin-bottom: 5px;
     /* Стили для заголовка в первой секции */
 }
@@ -58,7 +59,6 @@ header span {
 .main-text {
     font-weight: 400;
     font-size: 18px;
-    color: #303030;
     /* Стили для текста в первой секции */
 }
 
@@ -85,7 +85,6 @@ select {
     margin-bottom: 5px;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     appearance: none;
 
     background-image: url(./assets/img/ep_arrow-down.svg);
@@ -97,16 +96,14 @@ select {
 .section-title {
     font-weight: 700;
     font-size: 24px;
-    color: #303030;
+    margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
-    padding-left: 22px;
-    margin-bottom: 3px;
+    padding: 20px;
     list-style-image: url(./assets/img/solar_map-arrow-up-bold.svg)
 
     /* background-repeat: repeat-y;
@@ -118,14 +115,12 @@ select {
     padding-left: 22px;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     /* Стили для нумерованного списка во второй секции */
 }
 
 .label {
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     /* Стили для подписей чекбоксов */
 }
 
@@ -164,16 +159,14 @@ table {
     height: 196px;
     border-collapse: collapse;
     font-size: 14px;
-    color: #303030;
     margin-bottom: 3px;
     /* Стили для таблицы */
 }
 
-tr, td {
+th, td {
     font-weight: 700;
     font-weight: 400;
-    color: #303030;
-    padding-left: 12px;
+    padding: 12px 15px;
     /* Стили для ячеек таблицы */
 }
 
@@ -181,7 +174,7 @@ footer {
     width: 1440px;
     height: 70px;   
     background: rgba(163, 167, 255, 0.3);   
-    padding: 26px 0px 27px 1px;
+    padding: 26px 0px;
     /* Стили для футера */
 }
 
